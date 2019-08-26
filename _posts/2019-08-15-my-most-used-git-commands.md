@@ -1,3 +1,5 @@
+# My most used git commands
+
 ## Basics
 
 | Command | Description |
@@ -17,14 +19,12 @@
 | `git branch -d <branch-name>` | Delete a branch |
 | `git checkout <branch-name>` | Switch to a branch |
 | `git merge <branch-name>` | Merge a branch into the active branch |
-| `git merge <source-branch> <target-branch>` | Merge a branch into a target branch |
 
 ## Tagging
 
 | Command | Description |
 | ------- | ----------- |
-| `git tag --delete <tag-name>` | Delete a **shared** tag locally (Remember to push the change - see command
- below) |
+| `git tag --delete <tag-name>` | Delete a **shared** tag locally (Remember to push the change - see command below) |
 | `git push origin :refs/tags/<tag-name>` | Push the local tag changes for a specific tag |
 | `git tag -a <tag-name> -m <commit-message>` | Create an annotated tag with a commit |
 
@@ -35,5 +35,3 @@
 | `git push` | Push changes to remote repository (remembered branch) |
 | `git fetch` | Fetch remote changes |
 | `git pull` | Update local repository to the newest commit |
-
-
