@@ -1,5 +1,7 @@
 ---
 layout: post
+published: true
+author: Michael
 title:  "Rename a remote git branch in 3 steps"
 categories: [dev]
 tags: [git, snippet, how-to]
