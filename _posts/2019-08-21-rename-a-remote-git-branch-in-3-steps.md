@@ -3,6 +3,8 @@ layout: post
 published: true
 author: Michael
 title:  "Rename a remote git branch in 3 steps"
+categories: [dev]
+tags: [git, branch]
 ---
 
 1. Rename the branch (if you are on the branch)
