@@ -5,7 +5,6 @@
 | Command | Description |
 | ------- | ----------- |
 | `git status` | Check status |
-| `git add <file-name.txt>` | Add a file to the staging area |
 | `git add -A` | Add all tracked and untracked files to the staging area |
 | `git commit -m "<commit-message>"` | Commit changes |
 
@@ -13,12 +12,10 @@
 
 | Command | Description |
 | ------- | ----------- |
-| `git branch` | List branches (the asterisk denotes the current branch) |
 | `git branch -a` | List all branches (local and remote) |
-| `git branch <branch-name>` | Create a new branch |
-| `git branch -d <branch-name>` | Delete a branch |
 | `git checkout <branch-name>` | Switch to a branch |
 | `git merge <branch-name>` | Merge a branch into the active branch |
+| `git remote prune origin` | Prune dead remote branches |
 
 ## Tagging
 
