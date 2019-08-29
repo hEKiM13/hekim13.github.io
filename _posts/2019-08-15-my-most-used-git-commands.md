@@ -1,4 +1,9 @@
-# My most used git commands
+---
+layout: post
+title:  "My most used git commands"
+categories: [dev]
+tags: [git, snippet]
+---
 
 ## Basics
 
@@ -12,10 +17,18 @@
 
 | Command | Description |
 | ------- | ----------- |
+| `git branch` | List all local branches |
 | `git branch -a` | List all branches (local and remote) |
 | `git checkout <branch-name>` | Switch to a branch |
+| `git checkout -b <branch-name>` | Create and switch to a branch |
 | `git merge <branch-name>` | Merge a branch into the active branch |
 | `git remote prune origin` | Prune dead remote branches |
+
+## History / Log
+
+| Command | Description |
+| ------- | ----------- |
+| `git log --graph --decorate --oneline` | A pretty printed view of the history |
 
 ## Tagging
 

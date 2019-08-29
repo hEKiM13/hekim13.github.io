@@ -1,4 +1,9 @@
-# How to rename a branch in 3 steps
+---
+layout: post
+title:  "Rename a remote git branch in 3 steps"
+categories: [dev]
+tags: [git, snippet, how-to]
+---
 
 1. Rename the branch (if you are on the branch)
 
