@@ -6,6 +6,8 @@ categories: [dev]
 tags: [git, branch]
 ---
 
+# {{ post.title }}
+
 1. Rename the branch (if you are on the branch)
 
     `git branch -m <new-name>`
