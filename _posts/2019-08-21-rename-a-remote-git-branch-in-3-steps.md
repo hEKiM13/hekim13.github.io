@@ -6,7 +6,7 @@ categories: [dev]
 tags: [git, branch]
 ---
 
-# {{ post.title }}
+# Rename a remote git branch in 3 steps
 
 1. Rename the branch (if you are on the branch)
 
