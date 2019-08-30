@@ -6,6 +6,8 @@ categories: [dev]
 tags: [git]
 ---
 
+# {{ post.title }}
+
 ## Basics
 
 | Command | Description |
