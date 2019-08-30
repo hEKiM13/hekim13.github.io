@@ -6,7 +6,7 @@ categories: [dev]
 tags: [git]
 ---
 
-# {{ post.title }}
+# My most used git commands
 
 ## Basics
 
