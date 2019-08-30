@@ -1,4 +1,5 @@
 ---
+published: true
 author: Michael
 title:  "My most used git commands"
 categories: [dev]
