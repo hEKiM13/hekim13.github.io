@@ -10,4 +10,10 @@
 
 | Command | Description |
 | ------- | ----------- |
-| `docker run -d --rm -p <host-port>:<container-port> --name <container-name> <image-name>` | Run a detached `-d` container of the image `<image-name>` and name it `<container-name>`. Expose ports and remove it when the main process ends |
+| `docker run -d --rm -p <host-port>:<container-port> --name <container-name> <image-name>` | Run a detached `-d` container of the image `<image-name>` and name it `<container-name>`. Expose ports `-p` and remove `--rm` it when the main process ends |
+
+## Images
+| Command | Description |
+| ------- | ----------- |
+| `docker image prune` | Remove all unused Docker images |
+| `docker rmi <image-sha>` | Remove the Docker image with the `<image-sha>` |
