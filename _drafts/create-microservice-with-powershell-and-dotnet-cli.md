@@ -1,4 +1,4 @@
-# Create a Microservice with Powershell
+# Create a Microservice with Powershell and the DotNet CLI
 
 - Save the following as a Powershell script
 
@@ -39,4 +39,4 @@ cd $originalPath
 
 - Execute the script in a command prompt and supply a namespace:
 
-    `./create-service.ps1 -namespace pubapi.services`
+    `./create-service.ps1 -namespace my-name-space.services`

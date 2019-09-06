@@ -1,4 +1,4 @@
-# My most used Docker commands
+# Docker commands
 
 ## Build
 
@@ -12,7 +12,8 @@
 | ------- | ----------- |
 | `docker run -d --rm -p <host-port>:<container-port> --name <container-name> <image-name>` | Run a detached `-d` container of the image `<image-name>` and name it `<container-name>`. Expose ports `-p` and remove `--rm` it when the main process ends |
 
-## Images
+## Image management
+
 | Command | Description |
 | ------- | ----------- |
 | `docker image prune` | Remove all unused Docker images |

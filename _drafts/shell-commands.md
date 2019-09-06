@@ -1,4 +1,4 @@
-# My most used shell commands
+# Shell commands
 
 ## SCP
 

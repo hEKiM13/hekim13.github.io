@@ -1,12 +1,12 @@
 ---
 published: true
 author: Michael
-title:  "My most used git commands"
+title:  "GIT commands"
 categories: [dev]
 tags: [git]
 ---
 
-# My most used git commands
+# GIT commands
 
 ## Basics
 
