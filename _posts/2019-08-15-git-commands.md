@@ -6,6 +6,8 @@ categories: [dev]
 tags: [git]
 ---
 
+Below are the GIT commands I use most frequently and sometimes forget.
+
 # GIT commands
 
 ## Basics
@@ -50,3 +52,5 @@ tags: [git]
 | `git push` | Push changes to remote repository (remembered branch) |
 | `git fetch` | Fetch remote changes |
 | `git pull` | Update local repository to the newest commit |
+| `git reset HEAD` | Reset the staging area (not working directory) to the commit that HEAD is pointing at |
+| `git reset --hard HEAD` | Reset the staging area and the working directory to the commit that HEAD is pointing at |
