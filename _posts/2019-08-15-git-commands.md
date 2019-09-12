@@ -25,7 +25,9 @@ tags: [git]
 | `git checkout <branch-name>` | Switch to a branch |
 | `git checkout -b <branch-name>` | Create and switch to a branch |
 | `git merge <branch-name>` | Merge a branch into the active branch |
+| `git branch -d <branch-name>` | Delete a branch locally |
 | `git remote prune origin` | Prune dead remote branches |
+| `git fetch -p` | Before fetching remove any dead remote branches |
 
 ## History / Log
 
