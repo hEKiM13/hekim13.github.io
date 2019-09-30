@@ -1,12 +1,12 @@
 ---
 published: true
 author: Michael
-title:  "Shell commands"
+title:  "Bash commands"
 categories: [linux]
 tags: [shell]
 ---
 
-Below are the shell commands I use most frequently and sometimes forget.
+Below are the bash commands I use most frequently and sometimes forget.
 
 # Shell commands
 
@@ -20,7 +20,8 @@ Below are the shell commands I use most frequently and sometimes forget.
 
 | Command | Description |
 | ------- | ----------- |
-| `scp <filename> <remote-username>@<remote-server>:<remote-directory>.` | secure copy local `<filename>` to remote computer |
+| `scp <filename> <remote-username>@<remote-server>:<remote-directory>` | secure copy local `<filename>` to remote computer |
+| `scp -r <remote-username>@<remote-server>:<remote-directory> <local-path>` | secure copy a remote directory to a local path |
 
 ## Network
 
