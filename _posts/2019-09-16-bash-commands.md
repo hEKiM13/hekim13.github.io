@@ -8,7 +8,7 @@ tags: [shell]
 
 Below are the bash commands I use most frequently and sometimes forget.
 
-# Shell commands
+# Bash commands
 
 ## SSH
 
