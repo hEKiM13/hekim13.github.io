@@ -30,6 +30,7 @@ Below are the GIT commands I use most frequently and sometimes forget.
 | `git branch -d <branch-name>` | Delete `branch-name` locally |
 | `git remote prune origin` | Prune dead remote branches |
 | `git fetch -p` | Before fetching remove any dead remote branches |
+| `git branch -vv | grep 'origin/.*: gone]' | awk '{print $1}' | xargs git branch -d` | Delete local branches that don't have a remote set |
 
 ## History / Log
 
